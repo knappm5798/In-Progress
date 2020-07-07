@@ -3,13 +3,32 @@
 # Michael Knapp
 # 20200704
 #
-expense= float(input())
-account= float(input())
 
 try:
-    print('What is the starting amount in the account?' + 'Please enter postive number:'
-    if account >= 0:
-        break
-    except(St)
+    total=float(input('What is the starting amount in the account?' + ' Please enter postive number: '))
+
+except ValueError:
+    print("That wasn't a valid number, Try again")
+
+print("You chose",total,"$")
+
+expense=float(input("Please enter your first expense: "))
+
+account = total
+y = expense
+total -= y
+
+print("Your Net income is ",total,"$")
+
+expense = print(input("Would you like to add an additional expense?: "))   
+if expense (y or yes or Yes or YES or Y):
+    y = float(input("What is your next expense?: "))
+    total -= y
+    print("Your Net income is:",total,"$")
+else:
+    print("Thank you for using my program! Your total is:",total,"$")
+
+
+
 
         
